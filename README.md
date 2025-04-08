@@ -25,7 +25,7 @@ This project demonstrates how to launch and configure AWS EC2 instances (both Li
 
 ---
 
-## 🔹 Windows EC2 Instance (Windows Server 2019)
+##🔹 Windows EC2 Instance (Windows Server 2019)
 
 ## Launch Windows EC2 Instance
 
