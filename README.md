@@ -47,9 +47,8 @@ sudo systemctl start apache2
 sudo systemctl enable apache2
 
 
-# 🔹 Windows EC2 Instance (Windows Server 2019)
-
-## Launch Windows EC2 Instance
+##🔹 Windows EC2 Instance (Windows Server 2019)
+Launch Windows EC2 Instance
 
 1. Login to AWS Console
 2. Go to **EC2** → **Launch Instance**
