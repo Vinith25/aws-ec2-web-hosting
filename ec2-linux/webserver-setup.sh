@@ -27,8 +27,6 @@ echo "<!DOCTYPE html>
 echo "✅ Apache web server is installed and running!"
 
 
-Sure da macha! Here’s a simple `webserver-setup.sh` script for setting up **Apache web server on a Linux EC2 (Ubuntu)** instance to host a static website:
-
 ---
 
 ### 📄 `webserver-setup.sh`
