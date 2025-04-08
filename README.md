@@ -37,6 +37,8 @@ This project demonstrates how to launch and configure AWS EC2 instances (both Li
 6. Launch the instance and connect via terminal using:
    ```bash
    ssh -i your-key.pem ubuntu@your-public-ip
+   
+## Apache Web Server Setup
 
 ```bash
 sudo apt update
