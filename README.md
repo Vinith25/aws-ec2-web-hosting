@@ -8,11 +8,12 @@ This project demonstrates how to launch and configure AWS EC2 instances (both Li
 
 ## 🎯 Project Objectives
 
-- Launch Linux and Windows EC2 instances on AWS
-- Configure Apache on Linux and IIS on Windows
-- Host a sample static website
-- Access the site using the instance's public IP
-
+- Launch EC2 instances on AWS (Linux and Windows)
+- Configure Apache server on Linux
+- Configure IIS on Windows
+- Host a basic HTML website
+- Access the website using the instance's public IP
+  
 ## 🧠 Skills Demonstrated
 
 - AWS EC2 Instance Management
@@ -26,10 +27,16 @@ This project demonstrates how to launch and configure AWS EC2 instances (both Li
 
 ## 🐧 Linux EC2 Setup (Ubuntu)
 
-1. Launch an EC2 instance using Ubuntu.
-2. Configure security group to allow HTTP (port 80) and SSH (port 22).
-3. Connect to instance using SSH.
-4. Run the following script to install Apache and deploy the website:
+1. Login to AWS Console
+2. Go to EC2 → Launch Instance
+3. Select **Ubuntu Server 20.04 LTS**
+4. Choose t2.micro (Free Tier)
+5. Configure security group:
+   - Allow **SSH (port 22)**
+   - Allow **HTTP (port 80)**
+6. Launch the instance and connect via terminal using:
+   ```bash
+   ssh -i your-key.pem ubuntu@your-public-ip
 
 ```bash
 sudo apt update
