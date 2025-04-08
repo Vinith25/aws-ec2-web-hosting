@@ -1,1 +1,25 @@
+🛠️ Install IIS Web Server on Windows EC2
 
+1. Open Server Manager from the Start menu.
+
+2. Click on "Add Roles and Features".
+
+3. In the wizard:
+   - Select "Role-based or feature-based installation"
+   - Choose the current server from the list
+
+4. Under "Server Roles":
+   - Check the box for "Web Server (IIS)"
+   - Click "Next"
+
+5. Keep default selections for Features and Web Server Role (IIS)
+
+6. Click "Install" and wait for the process to complete
+
+7. Once installed, go to "C:\inetpub\wwwroot\"
+
+8. Replace or edit the default `index.html` file with your website content
+
+✅ To test:
+   - Inside server browser: http://localhost
+   - From your local browser: http://<your-windows-ec2-public-ip>
